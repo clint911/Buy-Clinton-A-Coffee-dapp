@@ -1,0 +1,54 @@
+body {
+  background-color: slateblue;
+  color: black;
+  padding: 40px;
+  font-family: Arial;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: row;
+  align-self: baseline;
+  align-items:center;
+  flex-wrap:no-wrap;
+}
+
+.buttonsComponent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-grow: 0;
+  width: 100%;
+  height: 200%;
+}
+
+.enableEthereumButton {
+  background-color: green;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: center;
+  align-self: flex-start;
+  width:85%;
+  height:50px;
+
+}
+.countButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-items: space-around;
+  background-color:pink;
+  width:85%;
+
+}
+.sendMessageForm {
+  display: flex;
+  flex-direction:row;
+  width: 85%;
+  
+}
+
+
+
+
+
